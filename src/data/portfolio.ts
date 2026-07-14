@@ -135,6 +135,7 @@ export type Project = {
   features: string[];
   challenges: string;
   results: string;
+  github?: string;
   demo?: string;
   featured: boolean;
 };
@@ -160,7 +161,7 @@ export const projects: Project[] = [
     // TODO: add measurable results/impact once available (users, feedback, etc.)
     results:
       "Delivered a working prototype demonstrating real-time alerts and location sharing end-to-end. TODO: add live usage results.",
-     // TODO: link the exact repo for this project
+    github: "https://github.com/Shoaib-Ul-Hassan-analyst",
     demo: undefined, // TODO: add live demo link if available
     featured: true,
   },
